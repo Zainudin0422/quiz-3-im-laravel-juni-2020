@@ -81,10 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Sanbercode
+                    {{-- Sanbercode --}}
+                <img src="{{ asset('sbadmin2/img/ERD.png') }}" style="width: 70%;" alt="">
                 </div>
 
                 <div class="links">
+                    <a href="{{ '/artikel' }}">List Artikel</a>
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
